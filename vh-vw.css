@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    height: 100vh;
+}
+
+.div1 {
+    background-color: green;
+    width: 50%;
+    height: 50%;
+}
+.div2 {
+    background-color: tomato;
+    width: 50%;
+}
+.div3 {
+    background-color: magenta;
+    width: 20vw;
+}

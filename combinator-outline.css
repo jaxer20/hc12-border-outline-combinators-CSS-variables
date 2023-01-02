@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    margin: 0.5rem;
+}
+/* Descendent Selector */
+.box p{
+    color: red;
+}
+
+/* Child Selector */
+.box > p{
+    color: blue ;
+}
+
+/* General Sibling Selector */
+/* Box div'i kapandıktan sonraki tüm p'leri seçer, NOT: KAPANAN DIV İLE AYNI PARENT'A SAHİP OLAN TÜM P'LERİ SEÇER */
+.box ~ p {
+    color: green;
+}
+
+/* ADJACENT SELECTOR */
+/* box kapandıktan sonraki ilk p'yi seçer */
+.box + p {
+    color: fuchsia;
+}
+p + h1{
+    font-size: 2rem;;
+    margin: 3rem;
+    width: 11rem;
+    height:11rem;
+    border: 3px solid yellow;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 4rem;
+}
+p + h1:hover{
+    outline: 3px double darkblue;
+    outline-offset: 3px;
+}
